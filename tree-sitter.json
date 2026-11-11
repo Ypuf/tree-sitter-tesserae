@@ -15,7 +15,7 @@
   ],
   "metadata": {
     "version": "0.1.0",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "description": "Typed config file format",
     "authors": [
       {
@@ -25,8 +25,7 @@
       }
     ],
     "links": {
-      "repository": "https://github.com/Ypuf/Tesserae",
-      "funding": ""
+      "repository": "https://github.com/Ypuf/Tesserae"
     }
   },
   "bindings": {

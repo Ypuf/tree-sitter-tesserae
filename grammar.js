@@ -1,7 +1,7 @@
 /**
  * @file Typed config file format
  * @author Ypuf <ypuf@jpuf.xyz>
- * @license MIT
+ * @license Apache-2.0
  */
 
 /// <reference types="tree-sitter-cli/dsl" />

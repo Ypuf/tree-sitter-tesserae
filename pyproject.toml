@@ -12,7 +12,7 @@ classifiers = [
 ]
 description = "Typed config file format"
 keywords = [ "incremental", "parsing", "tree-sitter", "tesserae" ]
-license.text = "MIT"
+license.text = "Apache-2.0"
 name = "tree-sitter-tesserae"
 readme = "README.md"
 requires-python = ">=3.10"
