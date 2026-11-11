@@ -1,0 +1,24 @@
+// base
+host = "localhost"
+port = :5432
+proc = "http"
+timeout = 30sec
+cache = 1GiB
+url = "{proc}://{host}:{port}/api" // use references at any point in the config for things that may change between environments
+superusers = [183, 420]
+
+:: db
+host = "localhost"
+port = :5433
+
+@prod // enter the prod environment
+  cache = 8GiB               // increase the cache size to 8GiB
+  host = "ypuf.xyz"          // set the host to be ypuf.xyz instead of localhost
+  port = :25565              // set the port to 25565 instead of 5432
+  proc = "https"             // set the protocol to https instead of http
+  db/port = :25566           // set the database's port to 25566 instead of 5433
+  db/host = "db.ypuf.xyz"    // set the database's host to db.ypuf.xyz instead of localhost
+
+@
+// return to base
+colour = #FF6611 // this colour will always be #FF6611 regardless of environment.
