@@ -1,0 +1,42 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "tesserae",
+      "camelcase": "Tesserae",
+      "title": "Tesserae",
+      "scope": "source.tesserae",
+      "file-types": [
+        "tess"
+      ],
+      "injection-regex": "^tesserae$",
+      "class-name": "TreeSitterTesserae"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Typed config file format",
+    "authors": [
+      {
+        "name": "Ypuf",
+        "email": "ypuf@jpuf.xyz",
+        "url": "https://ypuf.xyz/0"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/Ypuf/Tesserae",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": false,
+    "go": false,
+    "java": false,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": false,
+    "zig": false
+  }
+}
